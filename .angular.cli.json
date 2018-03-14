@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "version": "1.0.0",
+    "name": "app"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "style": "sass",
+      "prefix": "app",
+      "scripts": [],
+      "environmentSource": "environments/environment.ts"
+    }
+  ]
+}
